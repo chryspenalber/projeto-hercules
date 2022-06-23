@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(52, 111, 139);
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px 10px 0px;
+}
+
+#inicio {
+    border-radius: 5px 0px 0px 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.288);
+    align-self: flex-start;
+}
+
+#p-cabecalho {
+    color: white;
+    text-align: center;
+    width: 998px;
+    height: 64px;
+    padding: 10px;
+    margin: 0px 0px 0px 10px;
+    background-color: #204E80;
+    border-radius: 0px 5px 5px 0px;
+    box-shadow: 0px 0px 2px rgb(0 0 0 / 29%);
+}
+
+ul.horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffe032;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.288);
+  }
+  
+li.horizontal-menu {
+    float: left;
+  }
+  
+.horizontal-menu a {
+    display: block;
+    margin: 0;
+    color: #346f8b;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-duration: .3s;
+  }
+
+.horizontal-menu a:hover {
+    background-color: rgb(52, 111, 139);
+    color: white;
+  }
+
+aside {    
+    background-color: white;
+    padding: 10px;
+    margin: 10px 20px;
+    position: absolute;
+}
+
+.box-menu {
+    width: 200px;
+    height: 200px;
+    background-color: #ffe032;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.288);
+}
+
+#form {
+    width: 200px;
+    height: 400px;
+    top: 420px;
+}
+
+.box-form {
+    width: 200px;
+    height: 400px;
+    background-color: #ffe032;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.288);
+}
+
+.vertical-menu li {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    color: rgb(52, 111, 139);
+    text-align: left;    
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}  
+
+.vertical-menu a {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #346f8b;
+    padding: 16px 18px;
+    transition-duration: .3s;
+}  
+#sinopse {
+    border-radius: 5px 5px 0px 0px;
+}
+
+#premios {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.vertical-menu a:hover {
+    background-color: rgb(52, 111, 139);
+    color: white;
+  }
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 20px;
+    display: inline-block;
+    position: relative;
+    left: 240px;
+    width: 1049px;
+}
+.container-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+}
+
+.container-main h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 2.5em;
+    background-color: #ffe032;
+    color: #163658;
+    width: 100%;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.28);
+}
+
+
+#personagens {
+    width: 1050px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px 100px; 
+}
+
+.container-cast {
+    width: 150px;
+    padding: 10px;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;    
+}
+#personagens h2 {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 1.7em;    
+}
+
+.img-carac {
+    border-radius: 50%;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cast {
+    width: 900px;
+    background-color: white;
+    top: 100px;
+}
+
+#cast h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+table {
+    border: 1px solid #163658;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #163658;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: rgb(4, 41, 100);
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 10px 20px;
+}
+
+footer > p {
+    margin: 0px;
+}

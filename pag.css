@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  background-color: rgb(52, 111, 139);
+  color: white;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul.horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 224, 50);
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  
+  li.horizontal-menu {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    margin: 0;
+    color: rgb(18, 0, 97);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  address a {
+    color: lightblue;
+  }
+  
+  .horizontal-menu a:hover {
+    background-color: rgb(18, 0, 97);
+    color: white;
+  }
+    
+  .vertical-menu {
+    width: 200px; /* Set a width if you like */
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .vertical-menu a {
+    background-color: rgb(255, 224, 50);
+    font-family: Helvetica, sans-serif;
+    color: rgb(18, 0, 97);
+    font-weight: 500;
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; 
+  }
+
+  .vertical-menu a:hover {
+    background-color: rgb(18, 0, 97);
+    color: white;
+  }
+
+figcaption {
+    font-size: 10pt;
+    color: lightgray;
+}
+
+#capa-dvd {
+  padding: 10px;
+}
