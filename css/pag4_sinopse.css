@@ -2,13 +2,13 @@
 
 * {
     margin: 0;
-    padding: 0;    
+    padding: 0;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(52, 111, 139);
-    margin: 0px;
+    margin: 0;
     width: 98vw;
 }
 
@@ -53,12 +53,12 @@ ul.horizontal-menu {
     font-weight: 600;
     border-radius: 5px;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.288);
-  }
-  
+}
+
 li.horizontal-menu {
     float: left;
-  }
-  
+}
+
 .horizontal-menu a {
     display: block;
     margin: 0;
@@ -67,14 +67,14 @@ li.horizontal-menu {
     padding: 14px 16px;
     text-decoration: none;
     transition-duration: .3s;
-  }
+}
 
 .horizontal-menu a:hover {
     background-color: rgb(52, 111, 139);
     color: white;
-  }
+}
 
-aside {    
+aside {
     background-color: white;
     padding: 10px;
     margin: 10px 20px;
@@ -108,11 +108,11 @@ aside {
     list-style-type: none;
     margin: 0;
     color: rgb(52, 111, 139);
-    text-align: left;    
+    text-align: left;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-}  
+}
 
 .vertical-menu a {
     font-family: Helvetica, sans-serif;
@@ -121,7 +121,8 @@ aside {
     color: #346f8b;
     padding: 16px 18px;
     transition-duration: .3s;
-}  
+}
+
 #sinopse {
     border-radius: 5px 5px 0px 0px;
 }
@@ -133,18 +134,25 @@ aside {
 .vertical-menu a:hover {
     background-color: rgb(52, 111, 139);
     color: white;
-  }
+}
 
 main {
     background-color: white;
-    padding: 10px;
-    margin: 10px 0px 0px 20px;
-    display: inline-block;
+    left: 260px;
+    top: 10px;
     position: relative;
-    left: 240px;
-    width: 1040px;
+    padding: 10px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 0px 0px 10px 0px;
+    width: 76.09vw;
 }
-.container-main {
+
+
+
+.container-main {    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,63 +180,22 @@ main {
 }
 
 .p-sinopse p {
-    margin-bottom: 15px ;
+    margin-bottom: 15px;
     line-height: 1.6em;
     text-indent: 20px;
 }
-
-
-#personagens {
-    width: 1050px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px 100px; 
-}
-
-.container-cast {
-    width: 150px;
-    padding: 10px;
-    margin: 10px 10px;
-    display: flex;
-    flex-direction: column;    
-}
-#personagens h2 {
-    font-family: 'Cinzel', serif;
-    font-weight: 700;
-    font-size: 1.7em;    
-}
-
-.img-carac {
-    border-radius: 50%;
-    width: 100px;
-    padding: 10px;
-    margin: 10px;
-}
-
-#cast {
-    width: 900px;
-    background-color: white;
-    top: 100px;
-}
-
-#cast h1 {
-    font-size: 2em;
-    text-align: center;
-}
-
 
 footer {
     background-color: rgb(4, 41, 100);
     color: white;
     text-align: center;
-    padding: 1px;
-    margin: 10px 20px;
+    position: relative;
+    bottom: -210px;
+    width: 98.7vw;
+    height: 100px;    
+    line-height: 20px;
 }
 
-footer > p {
+footer>p {
     margin: 0px;
 }
