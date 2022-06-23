@@ -9,6 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(52, 111, 139);
     margin: 0px;
+    width: 98vw;
 }
 
 header {
@@ -137,11 +138,11 @@ aside {
 main {
     background-color: white;
     padding: 10px;
-    margin: 10px 20px;
+    margin: 10px 0px 0px 20px;
     display: inline-block;
     position: relative;
     left: 240px;
-    width: 1049px;
+    width: 1040px;
 }
 .container-main {
     display: flex;
@@ -161,6 +162,19 @@ main {
     color: #163658;
     width: 84%;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.28);
+}
+
+.p-sinopse {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    width: 87%;
+}
+
+.p-sinopse p {
+    margin-bottom: 15px ;
+    line-height: 1.6em;
+    text-indent: 20px;
 }
 
 
@@ -203,18 +217,6 @@ main {
 
 #cast h1 {
     font-size: 2em;
-    text-align: center;
-}
-
-table {
-    border: 1px solid #163658;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 1px solid #163658;
-    width: 200px;
-    height: 35px;
     text-align: center;
 }
 
