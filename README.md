@@ -6,7 +6,7 @@ Projeto que reúne os conhecimentos aprendidos na Tech Academy da StartSe e nos 
 
 Para esse projeto, foram utilizadas as linguagens HTML, Javascript e CSS para estilos.
 
-## Link para visualizar no navegador
+## Visualizar no navegador
 
 [Hércules](https://chryspenalber.github.io/projeto-hercules/hercules_index.html)
 
