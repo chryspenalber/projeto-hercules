@@ -41,6 +41,7 @@ li a {
 .horizontal-menu a:hover {
     background-color: rgb(52, 111, 139);
     color: white;
+    transition: 0.5s;
   }
 
 main {
@@ -98,5 +99,9 @@ footer {
 }
 
 footer > p {
-    margin: 0px;
+     margin: 0px;
+}
+
+.footer {
+    padding: 10px;
 }
